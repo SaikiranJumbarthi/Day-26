@@ -1,0 +1,164 @@
+body{
+    background-color: black;
+}
+nav{
+    display: flex;
+    justify-content:center;
+    background-color: black;
+}
+#profile{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left:-160px;
+    top:2px;
+}
+#nav1{
+    position: relative;
+    background-color: dimgray;
+    left:-60px;
+}
+#nav2{
+    position: relative;
+    background-color: dimgray;
+    left:-43px; 
+}
+#nav3{
+    position: relative;
+    background-color: dimgray;
+    left:-20px;
+}
+#nav4{
+    position: relative;
+    background-color: dimgray;
+    left:-20px;
+}
+a{
+    text-decoration: none;
+    color: white; 
+ }
+ .dropdown-menu{
+    background-color: lightslategray;
+ }
+ .dropdown:hover .dropdown-menu { 
+     display: block; 
+ } 
+ 
+ .btn { 
+     color: white;
+ } 
+ .btn:hover{
+     color: white;
+ }
+ #menu{
+     columns: 2;
+ } 
+ div{
+     display: inline;
+ }
+ i{
+     font-size: 25px;
+ }
+ #live{
+     position: relative;
+     top:8px;
+     left:-33px;
+ }
+ #one{
+     position: relative;
+     left:20px;
+     top:5px;
+ }
+ #two{
+     position: relative;
+     left:90px;
+     top: 10px;
+ }
+ h4{
+    color:white;
+    position: relative;
+    left:30px;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sec3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    z-index:2;
+}
+.cardborder-dark:hover{
+    scale: 1.1;
+    transition-duration: 2s;
+}
+.card-body{
+    display: none;
+    color: white;
+    background-color: black;
+    border-left: hidden;
+    border-top: hidden;
+    border-right: hidden ;
+    border-bottom: hidden;
+}
+.cardborder-dark:hover .card-body{
+    display: block;
+}
+span{
+    color: blue;
+}
+.big{
+    background-color: gray;
+    color: white;
+}
+.change{
+    background-color: gray;
+    border-radius: 50%;
+    padding:0px 5px 5px 5px;
+}
+.hide{
+    display: none;
+    color:white;
+    font-size: 16px;
+}
+i:hover .hide{
+    display:block;
+}
+.sec4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    z-index:1;
+}
+.sec5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+}
+footer{
+    height:300px;
+    z-index:0;
+    position: relative;
+    top:200px;
+    left:400px;
+    width:900px;
+    justify-content: center;
+    background-color: black;
+
+}
+footer img{
+    height: 100px;
+    width: 200px;
+}
+.drop{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    left:110px;
+
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
